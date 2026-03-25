@@ -31,11 +31,11 @@ An offline first focused production-ready agentic CLI application powered by loc
 
 ## Requirements
 
-- Python 3.10+
+- Python 3.6+ (uses f-strings and modern typing)
 - [Ollama](https://ollama.ai) running locally (`ollama serve`)
 - `requests` library (`pip install requests`)
-- A pulled model (e.g., `ollama pull qwen3.5:4b-q4_K_M`)
-- default model required: `ollama pull qwen3.5:4b-q4_K_M`
+- SQLite3 (included with Python)
+- A pulled model (default: `ollama pull qwen3.5:4b-q4_K_M`)
 
 ## Quick Start
 
